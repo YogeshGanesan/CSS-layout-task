@@ -1,0 +1,480 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.container{
+  width:1170px;
+  margin-right:auto;
+  margin-left:auto;
+  padding-left:10px;
+  padding-right:10px;
+}
+.flex-container{
+display:flex;
+flex-wrap:wrap;
+margin-left:-15px;
+margin-right:-15px;
+padding-left:10px;
+padding-right:10px;
+
+}
+.flex-item-1{
+width:8.33%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-2{
+width:16.66%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-3{
+width:25%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-4{
+    width:33.33%;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.flex-item-5{
+width:41.66%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-6{
+width:50%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-7{
+width:58.33%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-8{
+width:66.66%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-9{
+width:75%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-10{
+width:83.33%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-11{
+width:91.66%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.flex-item-12{
+width:100%;
+flex:0 0 auto;
+padding-right:10px;
+padding-left:10px;
+}
+.header-top{
+background-color:black;
+/* height:80px;
+width:auto; */
+padding:20px 0;
+}
+.head-first{
+background-color:white;
+height:30px;
+width:auto;
+}
+.head-second{
+background-color:white;
+height:30px;
+width:auto;
+}
+.head-third{
+background-color:white;
+height:30px;
+width:auto;
+}
+.header-mid{
+background-color:black;
+/* height:150px;
+width:auto; */
+padding:20px 0;
+}
+.first{
+justify-content:center;
+}
+.head-fourth{
+background-color:white;
+height:100px;
+width:auto;
+}
+.header-bottom{
+background-color:black;
+/* height:180px;
+width:auto; */
+padding:20px 0;
+}
+.head-fifth{
+background-color:white;
+height:100px;
+width:auto;
+}
+.head-sixth{
+background-color:white;
+height:100px;
+width:auto;
+}
+.head-seventh{
+background-color:white;
+height:100px;
+width:auto;
+}
+.head-eight{
+background-color:white;
+height:100px;
+width:auto;
+}
+.midder-top{
+background-color:white;
+/* height:220px;
+width:auto; */
+padding:20px 0;
+}
+.mid-first{
+background-color:black;
+height:180px;
+width:auto;
+}
+.mid-second{
+background-color:black;
+height:180px;
+width:auto;
+}
+.midder-mid{
+background-color:black;
+/* height:150px;
+width:auto; */
+padding:20px 0;
+}
+.mid-third{
+background-color:white;
+height:50px;
+width:auto;
+}
+.mid-fourth{
+background-color:white;
+height:50px;
+width:auto;
+}
+.mid-fifth{
+background-color:white;
+height:50px;
+width:auto;
+}
+.mid-sixth{
+background-color:white;
+height:50px;
+width:auto;
+}
+.mid-seventh{
+background-color:white;
+height:50px;
+width:auto;
+}
+.mid-eight{
+background-color:white;
+height:50px;
+width:auto;
+} 
+.mid-night{
+background-color:white;
+height:30px;
+width:auto;
+margin-top: 20px;
+/* justify-content:center; */
+}
+.second{
+justify-content:center;
+}
+.midder-bottom{
+background-color:white;
+/* height:300px;
+width:auto; */
+padding:20px 0;
+}
+.mid-ten{
+background-color:black;
+height:240px;
+width:auto;
+margin-top:10px;
+}
+.mid-eleven{
+background-color:black;
+height:50px;
+width:auto;
+margin-top:10px;
+
+}
+.mid-twelve{
+background-color:black;
+height:50px;
+width:auto;
+margin-top:10px;
+
+}
+.mid-thirteen{
+background-color:black;
+height:50px;
+width:auto;
+margin-top:10px;
+}
+.mid-fourteen{
+background-color:black;
+height:50px;
+width:auto;
+margin-top:10px;
+}
+.middle{
+display:flex;
+flex-wrap:wrap;
+}
+.course{
+background-color:black;
+/* height:600px;
+width:auto; */
+padding:20px 0;
+}
+.course-0{
+background-color:white;
+height:50px;
+width:auto;
+margin-top:30px;
+}
+.course-1{
+background-color:white;
+height:200px;
+width:auto;
+margin-top:30px;
+}
+.course-2{
+background-color:black;
+height:200px;
+width:auto;
+margin-top:30px;
+}
+.course-3{
+background-color:black;
+height:50px;
+width:auto;
+}
+.course-4{
+background-color:white;
+height:50px;
+width:auto;
+}
+.background-image{
+background-color:white;
+/* height:250px;
+width:auto; */
+padding:20px 0;
+}
+.background-1{
+background-color:black;
+height:140px;
+width:auto;
+/* margin-top:40px; */
+}
+.fourth{
+ justify-content:center;
+}
+.different-images{
+background-color:black;
+/* height:1000px;
+width:auto; */
+padding:20px 0;
+}
+.image-topic{
+background-color:white;
+height:50px;
+width:auto;
+}
+.topic-1{
+background-color:white;
+height:40px;
+width:auto;
+margin-top:20px;
+}
+.fifth{
+justify-content:center;
+}
+.topic-2{
+background-color:white;
+height:300px;
+width:auto;
+margin-top:20px;
+}
+.topic-3{
+background-color:white;
+height:216px;
+width:auto;
+margin-top:20px;
+}
+.topic-4{
+background-color:white;
+height:180px;
+width:auto;
+margin-top:20px;
+}
+.topic-5{
+background-color:white;
+height:360px;
+width:auto;
+margin-top:20px;
+}
+.topic-6{
+background-color:white;
+height:200px;
+width:auto;
+margin-top:30px;
+}
+.topic-7{
+background-color:white;
+height:180px;
+width:auto;
+margin-top:20px;
+}
+ .topic-8{
+background-color:white;
+height:180px;
+width:auto;
+margin-top:20px;
+} 
+.topic-9{
+background-color:white;
+height:180px;
+width:auto;
+margin-top:20px;
+}
+.topic-10{
+background-color:white;
+height:100px;
+width:auto;
+margin-top:20px;
+}
+.footer-top{
+background-color:white;
+/* height:300px;
+width:auto; */
+padding:20px 0;
+}
+.foot-one{
+background-color:black;
+height:250px;
+width:auto;
+margin-top:20px;
+}
+.footer{
+display:flex;
+flex-wrap:wrap;
+}
+.foot-two{
+background-color:black;
+height:60px;
+width:auto;
+margin-top:20px;
+}
+.foot-zero{
+background-color:black;
+height:80px;
+width:auto;
+margin-top:20px;
+}
+.banner{
+background-color:black;
+padding:20px 0;
+}
+.banner-image{
+background-color:white;
+height:50px;
+width:auto;
+margin-top:20px;
+}
+.banner-description{
+background-color:white;
+height:50px;
+width:auto;
+margin-top:20px;
+}
+.trainee{
+background-color:white;
+padding:20px 0;
+}
+.contact-section{
+background-color:black;
+padding:20px 0;
+}
+.mapping-part{
+background-color:white;
+height:200px;
+width:auto;
+margin-top:20px;
+}
+.form-1{
+background-color:white;
+height:40px;
+width:auto;
+margin-top:20px;
+}
+ .form-2{
+background-color:white;
+height:40px;
+width:auto;
+margin-top:20px;
+}
+.form-3{
+background-color:white;
+height:150px;
+width:auto;
+margin-top:20px;
+} 
+.form-4{
+background-color:white;
+height:50px;
+width:auto;
+margin-top:20px;
+} 
+.form{
+display:flex;
+flex-wrap:wrap;
+}
+.overview{
+background-color:white;
+padding:20px 0;
+}
+.end{
+background-color:black;
+padding:20px 0;
+}
+.end-1{
+background-color:white;
+height:30px;
+width:auto;
+}
